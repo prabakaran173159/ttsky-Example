@@ -37,4 +37,5 @@ async def test_project(dut):
     assert dut.uo_out.value == 0
 
     # Keep testing the module by changing the input values, waiting for
+    # one or more clock cycles, and asserting the expected output values.e by changing the input values, waiting for
     # one or more clock cycles, and asserting the expected output values.
